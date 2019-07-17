@@ -1,0 +1,14 @@
+[[source]]
+name = "did-helloworld"
+url = "http://github.com/jpopesculian/did-helloworld"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask = "*"
+bigchaindb-driver = "*"
+pymongo = "*"
+
+[requires]
+python_version = "3.7"
